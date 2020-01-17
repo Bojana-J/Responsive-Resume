@@ -59,21 +59,21 @@ body {
 a {
   color: #cf5300; }
 
+.hobbies {
+  grid-area: hobbies;
+  background-color: var(--color-grey); }
+
 .work {
   grid-area: work; }
+
+.education {
+  grid-area: education; }
 
 .skills {
   grid-area: skills; }
 
 .skills-bar {
   grid-area: skills-bar; }
-
-.education {
-  grid-area: education; }
-
-.hobbies {
-  grid-area: hobbies;
-  background-color: var(--color-grey); }
 
 .wrapper {
   padding: 0;

@@ -1,4 +1,6 @@
 
+//////////////////////////////////
+///   PHOTO 
 .photo-section {
   grid-area: photo;
   background-color: var(--color-grey);
@@ -14,6 +16,9 @@
   }
 }
 
+
+//////////////////////////////////
+///   NAME 
 .name-section {
   grid-area: name;
   background-color: var(--color-grey);
@@ -36,6 +41,9 @@
   }
 }
 
+
+//////////////////////////////////
+///   ABOUT 
 .about {
   grid-area: about;
   background-color: var(--color-grey);
@@ -45,6 +53,9 @@
   }
 }
 
+
+//////////////////////////////////
+///   CONTACT 
 .contact {
     grid-area: contact;
     background-color: var(--color-grey);
@@ -66,24 +77,48 @@ a {
    
 }
 
+
+//////////////////////////////////
+///   HOBBIES
+.hobbies {
+    grid-area: hobbies;
+    background-color: var(--color-grey);
+
+    &__name {
+        //font-size: 1.5rem;
+    }
+}
+
+
+//////////////////////////////////
+///   WORK 
 .work {
   grid-area: work;
 }
 
+
+//////////////////////////////////
+///   EDUCATION
+.education {
+    grid-area: education;
+  }
+
+
+//////////////////////////////////
+///   SKILLS
 .skills {
-  grid-area: skills;
-}
+    grid-area: skills;
+  }
+
+
+//////////////////////////////////
+///   SKILLS-BAR
 .skills-bar {
   grid-area: skills-bar;
 }
 
-.education {
-  grid-area: education;
-}
 
 
 
-.hobbies {
-    grid-area: hobbies;
-    background-color: var(--color-grey);
-}
+
+
