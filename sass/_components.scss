@@ -60,7 +60,12 @@
   grid-area: education;
 }
 
-.community {
-  grid-area: community;
+.contact {
+  grid-area: contact;
   background-color: var(--color-grey);
+}
+
+.hobbies {
+    grid-area: hobbies;
+    background-color: var(--color-grey);
 }

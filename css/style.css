@@ -58,8 +58,12 @@ body {
 .education {
   grid-area: education; }
 
-.community {
-  grid-area: community;
+.contact {
+  grid-area: contact;
+  background-color: var(--color-grey); }
+
+.hobbies {
+  grid-area: hobbies;
   background-color: var(--color-grey); }
 
 .wrapper {
@@ -74,10 +78,21 @@ body {
   grid-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr;
   box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
-  grid-template-areas: "photo name name" "about education education" "about work work" "community skills skills-bar"; }
+  grid-template-areas: "photo name name" "about education education" "about education education" "about work work" "contact work work" "contact work work" "hobbies skills skills-bar"; }
 
 .grid-area {
   padding: 1em 1em 1em 1em; }
 
 .line {
   border: var(--line); }
+
+.heading {
+  text-transform: uppercase;
+  font-weight: 500; }
+
+.heading-blue {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--color-blue-300);
+  margin-bottom: .5rem; }
