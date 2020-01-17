@@ -3,6 +3,10 @@
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr; }
 
+.grid-area {
+  padding: 1em 1em 1em 1em;
+  border: 1px black solid; }
+
 .name {
   grid-area: name; }
 
