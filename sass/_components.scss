@@ -45,6 +45,27 @@
   }
 }
 
+.contact {
+    grid-area: contact;
+    background-color: var(--color-grey);
+
+    display: flex;
+    flex-direction: column;
+
+    &__container {
+        margin-bottom: 1rem;
+    }
+
+    &__detail {
+        text-transform: uppercase;
+    }
+  }
+
+a {
+    color: #cf5300;
+   
+}
+
 .work {
   grid-area: work;
 }
@@ -60,10 +81,7 @@
   grid-area: education;
 }
 
-.contact {
-  grid-area: contact;
-  background-color: var(--color-grey);
-}
+
 
 .hobbies {
     grid-area: hobbies;

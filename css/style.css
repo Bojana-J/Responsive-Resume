@@ -46,6 +46,19 @@ body {
   grid-area: about;
   background-color: var(--color-grey); }
 
+.contact {
+  grid-area: contact;
+  background-color: var(--color-grey);
+  display: flex;
+  flex-direction: column; }
+  .contact__container {
+    margin-bottom: 1rem; }
+  .contact__detail {
+    text-transform: uppercase; }
+
+a {
+  color: #cf5300; }
+
 .work {
   grid-area: work; }
 
@@ -57,10 +70,6 @@ body {
 
 .education {
   grid-area: education; }
-
-.contact {
-  grid-area: contact;
-  background-color: var(--color-grey); }
 
 .hobbies {
   grid-area: hobbies;
