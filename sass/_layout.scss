@@ -15,12 +15,16 @@
   box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
   grid-template-areas:
     "photo name name"
-    "about work work"
     "about education education"
+    "about work work"
     "community skills skills-bar";
 }
 
 .grid-area {
-    padding: 1em 1em 1em 1em;
-    border: 1px black solid;
-  }
+  padding: 1em 1em 1em 1em;
+  // border: 1px black solid;
+}
+
+.line {
+  border: var(--line);
+}
