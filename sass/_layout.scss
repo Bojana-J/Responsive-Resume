@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume {
+  display: grid;
+  width: 90%;
+  //   height: 90vh;
+
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
+  grid-template-areas:
+    "photo name name"
+    "about work work"
+    "about education education"
+    "community skills skills-bar";
+}
