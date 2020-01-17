@@ -1,6 +1,7 @@
 :root {
   --color-blue-300: #64b5f6;
   --color-blue-200: #90caf9;
+  --color-grey-dark: #777777;
   --color-grey: #d3d3d3;
   --line: 1px solid var(--color-blue-200); }
 
@@ -68,6 +69,14 @@ a {
 
 .education {
   grid-area: education; }
+  .education__container {
+    margin: 1rem 0; }
+  .education__school-name {
+    font-weight: 600; }
+  .education__date {
+    font-style: oblique;
+    font-weight: 400;
+    color: var(--color-grey-dark); }
 
 .skills {
   grid-area: skills; }
@@ -97,7 +106,8 @@ a {
 
 .heading {
   text-transform: uppercase;
-  font-weight: 500; }
+  font-size: 1.1rem;
+  font-weight: 600; }
 
 .heading-blue {
   text-transform: uppercase;
