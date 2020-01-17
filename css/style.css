@@ -14,10 +14,9 @@
   grid-template-areas: "photo name name" "about work work" "about education education" "community skills skills-bar"; }
 
 .circle {
-  border: 1px solid black;
-  background-color: white;
-  height: 60px;
-  width: 60px;
+  border: 4px solid #64b5f6;
+  height: 10rem;
+  width: 10rem;
   border-radius: 50%; }
 
 .grid-area {
@@ -30,7 +29,10 @@
 
 .photo {
   grid-area: photo;
-  background-color: grey; }
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .about {
   grid-area: about;
