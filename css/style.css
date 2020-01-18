@@ -66,6 +66,14 @@ a {
 
 .work {
   grid-area: work; }
+  .work__container {
+    margin: 1rem 0; }
+  .work__company-name {
+    font-weight: 600; }
+  .work__date {
+    font-style: oblique;
+    font-weight: 400;
+    color: var(--color-grey-dark); }
 
 .education {
   grid-area: education; }

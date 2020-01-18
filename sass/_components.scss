@@ -94,6 +94,24 @@ a {
 ///   WORK 
 .work {
   grid-area: work;
+
+  &__container {
+    margin: 1rem 0;
+}
+
+  &__company-name {
+    font-weight: 600;
+  }
+
+  &__date {
+      font-style: oblique;
+      font-weight: 400;
+      color: var(--color-grey-dark)
+  }
+
+  &__description {
+      //font-size: 1.5rem;
+  }
 }
 
 
